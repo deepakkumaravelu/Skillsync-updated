@@ -1,4 +1,5 @@
 .home{
+  
     .features{
         background-color: #eff3ff;
         display: flex;
@@ -77,6 +78,15 @@
             video{
                 width: 720px;
             }
+
+            img{
+                
+                    height: 100%;
+                    object-fit: contain;
+                    width: 600px;
+                
+            }
+            
         }
     }
     }

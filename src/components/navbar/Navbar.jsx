@@ -31,8 +31,8 @@ const Navbar = () => {
         </Link>
         </div>
         <div className="links">
-          <span>SkillSync Business</span>
-          <span>Explore</span>
+          <span><a href="#skillsyncbusiness">SkillSync Business</a></span>
+          <span><a href="#explore">Explore</a></span>
           <span>English</span>
           <span>Sign in</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}

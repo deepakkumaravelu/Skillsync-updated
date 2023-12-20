@@ -32,7 +32,7 @@ function Gig() {
               <span>5</span>
             </div>
           </div>
-          <Carousel afterChange={onChange} className="slider">
+          <Carousel afterChange={onChange} className="slider" autoplay={true} autoplaySpeed={2000} speed={1000}>
           <div>
           <img 
               src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"

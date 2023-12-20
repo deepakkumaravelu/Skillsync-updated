@@ -8,7 +8,7 @@ const Slide = ({children,slidesToShow,arrowsScroll}) => {
   return (
     <div className="slide">
       <div className="container">
-      <Slider slidesToShow={slidesToShow} arrowsScroll={arrowsScroll}>
+      <Slider slidesToShow={slidesToShow} arrowsScroll={arrowsScroll} arrows={true} autoplay={true} autoplaySpeed={4000} speed={1000}>
       {children}
        </Slider>
       </div>

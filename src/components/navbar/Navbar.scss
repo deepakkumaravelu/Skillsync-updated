@@ -8,9 +8,18 @@
   position: sticky;
   top: 0;
   z-index: 999;
+ a{
+  color: white;
+  transition: 0.5s all ease;
+  text-decoration: none; 
+ }
   &.active{
     background-color: white;
     color: black;
+    a{
+      color: black;
+      
+    }
   }
   .container {
     width:1400px;
@@ -29,6 +38,7 @@
         font-weight: 500;
         font-family: 'Montserrat', sans-serif;
         gap: 24px;
+        cursor: default;
 
         .user{
           display: flex;

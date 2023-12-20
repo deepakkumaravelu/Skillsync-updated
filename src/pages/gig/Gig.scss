@@ -63,14 +63,12 @@
       .slider {
         background-color: #F5F5F5;
         width: 900px;
+        div{
+          display: flex;
+          justify-content: center;
+        }
         img {
-          // margin: 0;
-          // height: 160px;
-          // color: #fff;
-          // line-height: 160px;
-          // text-align: center;
-          // background: #364d79;
-          
+         
           max-height: 500px;
           object-fit: contain;
         }
