@@ -31,8 +31,8 @@ const Navbar = () => {
         </Link>
         </div>
         <div className="links">
-          <span><a href="#skillsyncbusiness">SkillSync Business</a></span>
-          <span><a href="#explore">Explore</a></span>
+          <span><a href="#skillsyncbusiness" className="scrolleffect">SkillSync Business</a></span>
+          <span><a href="#explore" className="scrolleffect">Explore</a></span>
           <span>English</span>
           <span>Sign in</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}

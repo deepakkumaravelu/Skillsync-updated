@@ -14,7 +14,7 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">SkillSync  Graphics & Design </span>
+          <span className="breadcrumbs">SkillSync > Graphics & Design > </span>
           <h1>I will create ai generated art for you</h1>
           <div className="user">
             <img
@@ -254,7 +254,7 @@ function Gig() {
         <div className="right">
           <div className="price">
             <h3>1 AI generated image</h3>
-            <h2>$ 59.99</h2>
+            <h2>₹ 59.99</h2>
           </div>
           <p>
             I will create a unique high quality AI generated image based on a
@@ -272,19 +272,19 @@ function Gig() {
           </div>
           <div className="features">
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/img/violetcheck.png" alt="" />
               <span>Prompt writing</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/img/violetcheck.png" alt="" />
               <span>Artwork delivery</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/img/violetcheck.png" alt="" />
               <span>Image upscaling</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/img/violetcheck.png" alt="" />
               <span>Additional design</span>
             </div>
           </div>
