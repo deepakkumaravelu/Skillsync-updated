@@ -43,15 +43,16 @@
           }
   
           button {
-            background-color: #1dbf73;
+            background-color: #262f61;
             color: white;
             padding: 10px;
             border: none;
+            border-radius: 5px;
             cursor: pointer;
           }
   
           &.active {
-            background-color: #1dbf730f;
+            background-color: #9a9bce0f;
           }
         }
       }
