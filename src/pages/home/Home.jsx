@@ -19,6 +19,7 @@ const Home = () => {
       <div className="features" id="explore">
         <div className="container">
           <div className="item">
+            <br></br>
             <h1>A whole of freelance talent at your fingertips</h1>
             <div className="title">
               <img src="./img/check.png" alt="" />
@@ -149,8 +150,11 @@ const Home = () => {
       </div>
       
       <div className="features dark" id="skillsyncbusiness">
+      
       <div className="container">
+      
         <div className="item">
+        <br></br>
         <h1>
         SkillSync <i>business</i>
       </h1>
